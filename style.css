@@ -1,0 +1,57 @@
+body {
+  background: lightgrey;
+}
+
+h1 {
+  font-size: 20px;
+  padding: 10px;
+  align: center;
+}
+
+h2 {
+  font-size: 16px;
+  padding:6px;
+  align: center;
+}
+.small-text {
+  font-size: 10px;
+}
+
+.header {
+  height: 200px;
+  padding-top: 20px;
+  background: #cdcdcd;
+}
+
+/* Centering our h1 tag inside our header, giving it a little padding, removing its margin */
+.header h1 {
+  padding: 60px;
+  margin: 0;
+  color: #000;
+  text-align: center;
+}
+
+.navbar .dropdown a:hover {
+  background-color: rgb(78, 149, 170) !important;
+  }
+.navbar .nav-item a:hover {
+    background-color: rgb(78, 149, 170) !important;
+    }
+  
+/* Giving the .post element margin on 3 sides */
+.post {
+  margin-top: 50px;
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+@media (max-width: 600px) {
+  .navbar li {
+    padding: 10px;
+  }
+
+  .post {
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+}
